@@ -1,3 +1,5 @@
 import cats from './cats';
 
-console.log(cats);
+const catsSet = new Set(cats);
+
+console.log(catsSet);
